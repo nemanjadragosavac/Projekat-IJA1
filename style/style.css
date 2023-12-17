@@ -1,0 +1,299 @@
+.linkovi a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #f9c901;
+    margin: 10px 10px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('../img/honeycombbackground.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.linkovibackground{
+    background-color: #f9c901;
+    border-bottom: 2px solid black;
+}
+
+.linkovi a:hover{
+    background-color: black;
+    color: #f9c901;
+    transition: 1s;
+   
+}
+
+.contacticons{
+    width: 200px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 27px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    animation: animacija2 3s;
+}
+
+h2{ 
+    font-weight: bold;
+    color: black;
+    font-family: arial;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4{
+    font-weight: bold;
+    font-family: arial;
+    text-decoration: underline;
+    color: black;
+}
+
+.paragraf{
+color: black;
+text-align: center;
+font-weight: bold;
+}
+
+.slikapcelinjak{
+    width: 30%;
+    height: 30%;
+    animation: animacija 3s;
+}
+
+.uljanarepica, .bagrem, .suncokret, .livadski{
+    width: 10%;
+    height: 10%;
+}
+
+@keyframes animacija{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes animacija2{
+    50%{transform: scale(0.5, 0.5);}
+}
+
+ol{
+    font-weight: bold;  
+    margin-bottom: 100px;
+    color: black;
+}
+
+ol li {
+    color: black;
+}
+
+form{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 500px;
+    background-color: #f9c901;
+    color: black;
+}
+
+form p{
+    padding: 10px;
+    font-weight: bold;
+}
+
+input[type="name"]{
+    display: block;
+    width: 300px;
+    height: 30px;   
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+input[type="submit"], input[type="reset"]{
+    height: 30px;
+    width: 120px;
+    margin: 25px 25px;
+    border: 2px solid black;
+    background-color: #f9c901;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input[type="name"]:hover{
+    box-shadow: 5px 4px 5px 5px black;
+}
+
+input[type="submit"]:hover{
+    background-color: black;
+    color: #f9c901;
+    font-weight: bold;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+input[type="reset"]:hover{
+    background-color: black;
+    color: #f9c901;
+    font-weight: bold;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+#veliko::first-letter{font-size:2em
+}
+
+table{
+    border: 2px solid black;
+    color: black;
+    background-color: #f9c901;
+}
+
+table tr{
+    font-weight: bold;
+}
+
+.centerkontakt {
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .slikapcelinjak{
+        width: 60%;
+        height: 60%;
+    }
+
+    .linkovi a{
+        font-size: 25px;
+    }
+
+    #veliko{
+        font-size: 130%;
+       }
+    
+    ol li{
+        font-size: 130%;
+       }
+    
+    .uljanarepica, .bagrem, .suncokret, .livadski{
+        width: 25%;
+        height: 25%;
+    }
+
+    .paragraf{
+        font-size: 25px;
+    }
+
+    #resp{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    form p{
+        font-size: 20px;
+    }
+
+    table{
+        font-size: 30px;
+    }
+
+    .centerkontakt p{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .linkovi a{
+        padding: 5px 10px;
+        font-size: 70%;
+    }
+
+    form{
+        width: 250px;
+    }
+    
+    input[type="name"]{
+        width: 180px;
+        height: 20px;   
+    }
+
+    .textarea{
+        width: 200px;
+        height: 50px;
+    }
+
+    input[type="submit"], input[type="reset"]{
+        height: 20px;
+        width: 70px;
+    }
+
+    .slikapcelinjak{
+        width: 70%;
+        height: 70%;
+    }
+
+    table{
+        font-size: 10px;
+    }
+
+    .uljanarepica, .bagrem, .suncokret, .livadski{
+        width: 35%;
+        height: 35%;
+    }
+
+    #resp{
+        font-size: 100%;
+    }
+
+    form p{
+        font-size: 80%;
+    }
+
+    .paragraf{
+        font-size: 80%;
+    }
+
+    h2{
+        font-size: 100%;
+    }
+
+    h4{
+        font-size: 80%;
+    }
+
+   #veliko{
+    font-size: 70%;
+   }
+
+   ol li{
+    font-size: 70%;
+   }
+
+   .contacticons{
+    font-size: 100%;
+   }
+
+   .centerkontakt p{
+    font-size: 70%;
+   }
+}

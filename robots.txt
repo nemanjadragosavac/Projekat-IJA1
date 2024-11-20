@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /img/
 
 sitemap: https://nemanjadragosavac.github.io/Projekat-IJA1/sitemap.xml 

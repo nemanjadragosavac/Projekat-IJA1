@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /img/
-
-sitemap: https://github.com/nemanjadragosavac/Projekat-IJA1/sitemap.xml
